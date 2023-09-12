@@ -5,13 +5,15 @@ const bodyParser = require('body-parser');
 
 const app = express();
 app.use(bodyParser.json());
+const cors = require('cors')
 
 // connect to database
 const connectDB = require('./database/connect');
 
 // routes
 const person = require('./routes/person');
-const { connect } = require('mongoose');
+
+app.use(cors())
 
 app.get('/', (req, res) => {
     res.send('Hello World!');
