@@ -120,4 +120,4 @@ Here is the UML (Unified Modeling Language) diagram representing the structure a
 
 ## Deployment
 
-I deployed this project to Render. You can view the live API at [https://hng-stage2-0d2o.onrender.com/api](https://hng-stage2-0d2o.onrender.com/api).
+I deployed this project to Render. You can view the live API at [https://hng-stage2-0d2o.onrender.com/api](https://hng-stage2-0d2o.onrender.com/api-docs).
