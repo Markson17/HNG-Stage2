@@ -4,6 +4,7 @@ This is a simple REST API for performing CRUD (Create, Read, Update, Delete) ope
 
 ## Table of Contents
 
+- [Swagger Documentation](#swagger-documentation)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
@@ -11,9 +12,13 @@ This is a simple REST API for performing CRUD (Create, Read, Update, Delete) ope
 - [Usage](#usage)
   - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
+- [UML Diagram](#uml-diagram)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+
+## Swagger Documentation
+
+You can access the Swagger documentation for this API at `https://hng-stage2-0d2o.onrender.com/api-docs/`. The Swagger UI provides detailed information about the API endpoints, request schemas, and example requests and responses.
+![Swagger Documentation of CRUD API](swagger-docs.png)
 
 ## Prerequisites
 
@@ -106,4 +111,13 @@ To test the API endpoints, you can use tools like Postman or write automated tes
 
 2. Use your chosen testing tool to send requests to the API endpoints.
 
+## UML Diagram
 
+Here is the UML (Unified Modeling Language) diagram representing the structure and relationships of this API's classes and models:
+
+![UML Diagram](CRUD.jpg)
+
+
+## Deployment
+
+I deployed this project to Render. You can view the live API at [https://hng-stage2-0d2o.onrender.com/api](https://hng-stage2-0d2o.onrender.com/api).
